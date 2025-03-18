@@ -1,0 +1,9 @@
+pods:
+  - system
+  - dev
+  - monitoring
+  - moaaz
+
+environment: "dev" 
+
+additionalNamespaces: []

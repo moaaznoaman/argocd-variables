@@ -1,0 +1,6 @@
+pods:
+  - prod
+
+environment: "prod" 
+
+additionalNamespaces: []
