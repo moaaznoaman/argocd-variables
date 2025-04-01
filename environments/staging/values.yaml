@@ -1,5 +1,5 @@
 pods:
-  - staging
+  - stage
 
 environment: "staging"
 
