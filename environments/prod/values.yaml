@@ -1,6 +1,6 @@
 pods:
-  - prod
+  - production
 
-environment: "production"
+environment: "prod"
 
 additionalNamespaces: []
