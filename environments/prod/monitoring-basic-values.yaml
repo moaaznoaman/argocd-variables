@@ -1,8 +1,8 @@
 kube-prometheus-stack:
-#  kubeControllerManager:
-#    enabled: true
-#  kubeScheduler:
-#    enabled: true
+  kubeControllerManager:
+    enabled: true
+  kubeScheduler:
+    enabled: true
   prometheus:
     prometheusSpec:
       image:
