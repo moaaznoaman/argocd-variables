@@ -3,6 +3,9 @@ kube-prometheus-stack:
     enabled: true
   kubeScheduler:
     enabled: true
+  prometheusOperator:
+    admissionWebhooks:
+      enabled: false
   prometheus:
     prometheusSpec:
       image:
