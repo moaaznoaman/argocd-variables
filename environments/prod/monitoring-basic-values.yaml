@@ -1,0 +1,9 @@
+kube-prometheus-stack:
+#  kubeControllerManager:
+#    enabled: true
+#  kubeScheduler:
+#    enabled: true
+  prometheus:
+    prometheusSpec:
+      image:
+        tag: v3.3.0-rc.1
